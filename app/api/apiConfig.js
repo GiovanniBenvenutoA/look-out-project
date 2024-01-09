@@ -1,7 +1,7 @@
 let apiBaseUrl="";
 if (process.env.NODE_ENV === 'development') {
   // Código específico para el entorno de desarrollo
-  apiBaseUrl = "https://localhost:44318/api";
+  apiBaseUrl = "https://localhost:7152/api";
 } else {
   // Código específico para el entorno de producción
   apiBaseUrl = "https://kpazserv0005.azurewebsites.net/api";
